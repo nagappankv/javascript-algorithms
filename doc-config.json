@@ -5,6 +5,7 @@
     "source": {
         "include": [
             "./src/combinatorics/",
+            "./src/compression/",
             "./src/data-structures/",
             "./src/graphics/",
             "./src/graphs/others/",
@@ -23,9 +24,9 @@
     },
     "plugins": [],
     "opts": {
-        "template": "templates/default",
+        "template": "node_modules/@jeremyckahn/minami",
         "encoding": "utf8",
-        "destination": "../javascript-algorithms-docs",
+        "destination": "dist",
         "recurse": true,
         "private": false,
         "readme": "./readme.md"
